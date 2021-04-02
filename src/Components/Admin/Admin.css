@@ -1,0 +1,26 @@
+.add-manage-product {
+  display: flex;
+  padding: 0 100px;
+}
+.left-menu {
+  width: 30%;
+  min-height: 100vh;
+  background-color: teal;
+  padding-left: 50px;
+}
+.admin-right-menu {
+  width: 70%;
+}
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+.submit {
+  padding: 10px 25px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: lightcoral;
+  border: none;
+}

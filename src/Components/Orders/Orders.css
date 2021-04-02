@@ -1,0 +1,20 @@
+.order table {
+  width: 100%;
+}
+.order {
+  padding: 20px 80px;
+}
+.total {
+  text-align: left;
+  font-weight: 800;
+}
+.check-out-btn {
+  float: right;
+  padding: 10px 28px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  background-color: lightcoral;
+  color: white;
+  cursor: pointer;
+}

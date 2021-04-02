@@ -1,0 +1,11 @@
+.right-menu table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.right-menu tbody th,
+td {
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}

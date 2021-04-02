@@ -1,0 +1,12 @@
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.g-btn {
+  padding: 10px 30px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
