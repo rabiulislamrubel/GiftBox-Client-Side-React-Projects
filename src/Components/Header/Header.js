@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <nav>
             <div className="logo">
-                <Link to='/' className='logo-txt'><h2>Fresh Valley</h2></Link>
+                <Link to='/' className='logo-txt'><h2>GiftBox</h2></Link>
                 <div className="nav-bar">
                     <img src={menu} alt="" onClick= {handleToggle} />
                 </div>
