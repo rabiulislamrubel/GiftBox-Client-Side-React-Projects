@@ -13,6 +13,11 @@ const Home = () => {
         <div>
             <div className='product-card'>
                 {
+                    productData.length === 0 && <div className='loading'>
+                        <h2>Loading...</h2>
+                    </div>
+                }
+                {
                     productData.map(pd => <Card boxes={pd} key={pd._id}></Card>)
                 }
             </div>
